@@ -20,6 +20,6 @@ while loop == True:
     Prodi = input("Masukkan Prodi : ")
     lanjut = input("Apakah ingin memasukkan file lagi? ")
     absen += 1
-    if lanjut == 'tidak':
+    if lanjut == 'n':
         loop = False
         print(All)
