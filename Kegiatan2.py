@@ -1,17 +1,11 @@
-import sys
+def Masuk(absen, nama, Tahun, Judul, Prodi):
+    global All
+    All = {0:{'Nama':'a','Tahun':0,'Judul':'asd','Prodi':'dsa'}}
+    Temp = {absen:{'Nama':nama,'Tahun':Tahun,'Judul':Judul,'Prodi':Prodi}}
+    All.update(Temp)
 
-def Masuk(Nama, Tahun, Judul, Prodi):
-    
-    return 0
 
-All = {
-    'Nama':{},
-    'Tahun':{},
-    'Judul':{},
-    'Prodi':{}
-    }
-
-absen = 0
+absen = 1
 loop = True
 while loop == True:
     nama = input("Masukkan nama : ")
@@ -20,6 +14,8 @@ while loop == True:
     Prodi = input("Masukkan Prodi : ")
     lanjut = input("Apakah ingin memasukkan file lagi? ")
     absen += 1
-    if lanjut == 'n':
+    Masuk(absen, nama, tahun, Judul, Prodi)
+    if lanjut == 'tidak':
         loop = False
-        print(All)
+
+print(All)
