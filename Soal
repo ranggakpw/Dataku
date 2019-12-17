@@ -1,0 +1,51 @@
+soal 1
+terdapat lamda sebagai pengganti looping for
+tidak menggunakan fungsi random secara langsung
+
+#UAPPemrogramanFungsional_soal01
+#tanpa menggunakan looping for, buatlah sebuah program yang dapat memilah angka genap serta angka ganjil.
+#dengan kerangka sebagai berikut
+Angka = [11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
+
+#OUTPUT
+Genap = [12,14,16,18,20,22,24,26,28,30]
+Ganjil = [11,13,15,17,19,21,23,25,27,29]
+
+soal 2
+terdapat list atau dictionary yang diguakan
+nilai maksimal jika membuat dictionary tanpa fungsi dict dari library pyton
+inputan dari user, tidak diberikan nilai di dalam dictionary secara langsung
+
+#UAPPemrogramanFungsional_soal02
+#Perpustakaan teknikningin membuat sistem perpustakaan online untuk menampung semua berkas tugas akhir dari mahasiswa.
+#Dari kasus ini, anda diminta untuk membuat program yang digunakan untuk menginputkan data tugas akhir mahasiswa di bawah ini 
+#yang nantinya akan tersimpan dalam dictionary pada program anda
+
+#TABEL
+#Nama Mahasiswa | Tahun Lulus |                Judul TA              | Prodi
+#Kiki olivia    | 2017        | Rancangan bangun sistem monitoring...| Informatika
+#yogi           | 2018        | Pengolahan data sensor suara...      | Inforatika
+
+soal 3
+pencarian substring dapat digunakan
+hasil pencarian sesuai dengan yang ada di dalam program
+nilai lebih jika dapat menerapkan multy kriteria dalam pencarian dengan substring
+
+#UAPPemrogramanFungsional_soal02
+#Perpustakaan teknikningin membuat sistem perpustakaan online untuk menampung semua berkas tugas akhir dari mahasiswa.
+#Dari kasus ini, anda diminta untuk membuat program yang digunakan untuk menginputkan data tugas akhir mahasiswa di bawah ini 
+#yang nantinya akan tersimpan dalam dictionary pada program anda
+
+#TABEL
+#Nama Mahasiswa | Tahun Lulus |                Judul TA              | Prodi
+#Kiki olivia    | 2017        | Rancangan bangun sistem monitoring...| Informatika
+#yogi           | 2018        | Pengolahan data sensor suara...      | Inforatika
+
+soal 4
+niLAI maksimal implementasi filter warna tanpa menggunakan library filter dari pyton
+jika hasil tidak sessuai dengan yang di soal maka nilai di kurangi 10
+
+#UAPPemrogramanFungsional_soal04
+#Dari gambar di bawah ini, lakukanlah image processing dengan menampilkan 
+hanya terlihat unsur warna hijau saja pada simbol kapas
+#gambarLogoUMM

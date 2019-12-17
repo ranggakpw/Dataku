@@ -886,29 +886,5 @@ credit()
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 print ("Ini Adalah Akhir Dari Kisah Si Kancil, TERIMA KASIH TELAH BERMAIN")
 
